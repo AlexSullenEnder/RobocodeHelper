@@ -13,9 +13,9 @@ public final class Helper {
 	}
 	
 	public final static class Console {
-		private static Scanner _console;
+		private static final Scanner _console;
 		
-		public Console() {
+		static {
 			_console = new Scanner(System.in);
 		}
 		
