@@ -11,4 +11,19 @@ public final class Helper {
 			return nextInt(0, max);
 		}
 	}
+	
+	public final static class Console {
+		private static Scanner _console;
+		
+		public Console() {
+			_console = new Scanner(System.in);
+		}
+		
+		public static int readInt() {
+			return _console.nextInt();
+		}
+		public static String readLine() {
+			return _console.nextLine();
+		}
+	}
 }
