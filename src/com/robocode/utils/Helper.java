@@ -13,17 +13,11 @@ public final class Helper {
 	}
 	
 	public final static class Console {
-		private static final Scanner _console;
-		
-		static {
-			_console = new Scanner(System.in);
-		}
-		
 		public static int readInt() {
-			return _console.nextInt();
+			return new Scanner(System.in).nextInt();
 		}
 		public static String readLine() {
-			return _console.nextLine();
+			return new Scanner(System.in).nextLine();
 		}
 		
 		public static void writeLine(Object value) {
