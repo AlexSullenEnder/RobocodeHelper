@@ -25,5 +25,12 @@ public final class Helper {
 		public static String readLine() {
 			return _console.nextLine();
 		}
+		
+		public static void writeLine(String value) {
+			System.out.println(value);
+		}
+		public static void write(String value) {
+			System.out.print(value);
+		}
 	}
 }
