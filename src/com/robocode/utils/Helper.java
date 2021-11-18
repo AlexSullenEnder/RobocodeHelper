@@ -29,8 +29,14 @@ public final class Helper {
 		public static void writeLine(Object value) {
 			System.out.println(value);
 		}
+		public static void writeLine() {
+			System.out.println();
+		}
 		public static void write(Object value) {
 			System.out.print(value);
+		}
+		public static void write() {
+			System.out.print("");
 		}
 	}
 }
