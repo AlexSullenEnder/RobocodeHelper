@@ -26,10 +26,10 @@ public final class Helper {
 			return _console.nextLine();
 		}
 		
-		public static void writeLine(String value) {
+		public static void writeLine(Object value) {
 			System.out.println(value);
 		}
-		public static void write(String value) {
+		public static void write(Object value) {
 			System.out.print(value);
 		}
 	}
