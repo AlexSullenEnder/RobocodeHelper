@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RobocodeHelper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/RobocodeHelper_jar</output-path>
+    <root id="archive" name="RobocodeHelper.jar">
+      <element id="module-output" name="RobocodeHelper" />
+      <element id="library" level="application" name="RobocodeHelper" />
+    </root>
+  </artifact>
+</component>
